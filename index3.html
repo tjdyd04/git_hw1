@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+	<head>
+		<meta charset= "utf-8" />
+		<title>index3. 설문조사</title>
+	</head>
+
+	<body>
+		<hr/>
+		<h1> 서영이에대해 말해주세요 ♥ </h1>
+		<hr/>
+
+		<form action="mySurvey" method="post">
+			우선 당신의 이름은? <input type="text" name="이름" size="10" maxlength="5"/>
+			<br/><br/>
+
+			서영이의 첫인상은? <span style="color:RED">(다중선택 가능)</span> <br/>
+			예쁘다<input type="checkbox" name="checkFirst" value="1cf" />
+			귀엽다<input type="checkbox" name="checkFirst" value="2cf" />
+			성격좋아보인다<input type="checkbox" name="checkFirst" value="3cf" />
+			착하게생겼다<input type="checkbox" name="checkFirst" value="4cf" /> <br/>
+			못생겼다<input type="checkbox" name="checkFirst" value="5cf" />
+			양아치같다<input type="checkbox" name="checkFirst" value="6cf" />
+			싸가지없을것같다<input type="checkbox" name="checkFirst" value="7cf" />
+			무관심<input type="checkbox" name="checkFirst" value="8cf" />
+			 <br/><br/>
+
+			내가 어떤 <b>동물</b>을 좋아한다고 얘기했는지 기억나요? 뭘까요~ <br/>
+			<input type="radio" name="radioAnimal" value="1ra"/>강아지
+			<input type="radio" name="radioAnimal" value="2ra"/>고양이
+			<input type="radio" name="radioAnimal" value="3ra"/>호랑이
+			<input type="radio" name="radioAnimal" value="4ra"/>펭귄
+			<input type="radio" name="radioAnimal" value="5ra"/>나방
+			<input type="radio" name="radioAnimal" value="6ra"/>기억안남
+			<br/><br/>
+
+			앞서 소개했던 서영이가 좋아하는 노래중에, <u>마음에드는 노래</u>를 선택해주세요<br/>
+			<select name="selectMusic">
+				<option value="1sm"> WINNER(위너) - Different </option>
+				<option value="2sm"> 어쿠스틱콜라보 - wating for u </option>
+				<option value="3sm"> Mad Clown - Luv Sickness </option>
+				<option value="4sm"> Loptimist - Amnesia </option>
+				<option value="5sm"> Family of the year - Hero </option>
+				<option value="6sm"> 마음에드는거 없음 </option>
+			</select> <br/><br/>
+
+			지금 설문지가 좀 이상하다고 생각하나요? <br/>
+			<input type="radio" name="radioSurvey" value="1rs"/>네
+			<input type="radio" name="radioSurvey" value="2rs"/>아니오
+			<input type="radio" name="radioSurvey" value="3rs"/>왜묻는거지
+			<br/><br/>
+
+			마지막으로, 서영이에게 바라는점이 있다면?<br/>
+			<textarea cols="30" rows="10" name="Text"> 정말 자유롭게 써주세요</textarea>
+			<input type="button" value="완성" /> <br/>
+		</form>
+
+		<hr/>
+		처음화면으로 돌아가고싶다면 .. <a href="./index1.html"> 클릭!! </a> <br/>
+		아래질문의 답을 모르겠다면.. <a href="./index2.html"> 클릭!! </a>  
+		<hr/>
+
+	</body>
+</html>
