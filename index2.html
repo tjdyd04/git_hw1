@@ -1,82 +1,99 @@
 <!DOCTYPE html>
 <html lang="ko">
-	<head>
-		<meta charset="utf-8">
-		<title> index2. 서영이가좋아하는것 </title>
-	</head>
+<head>
+	<meta charset="utf-8">
+	<title> index2. 서영이가좋아하는것 </title>
+	<link href="./stylesheet/reset.css" rel="stylesheet" type="text/css">
+	<link href="./stylesheet/index2.css" rel="stylesheet" type="text/css">	
+	
+</head>
 
-	<body>
-	<div align="center">
-		<hr/>
-		<span style="color:DeepPink">★ 바로가기 <a href="#myAnimal">서영이가 좋아하는 동물</a> or 
-		<a href="#myMusic">서영이가 좋아하는 노래</a> Click!! </span>
-		<hr/>
+<body>
+	<div id="wrap">
+		
+		<div id="top">
+			<span class="red"> ★ 바로가기 :: <a href="#myAnimal">서영이가 좋아하는 동물</a> or 
+			<a href="#myMusic">서영이가 좋아하는 노래</a> Click!! </span> <hr/>
+		</div>
 		<!-- 좋아하는것 1.동물 -->
-		<a name="myAnimal"> <h1> <span style="color:DeepSkyBlue"> Animal </span></h1></a>
-		저는 <b>고양이</b>가 너무좋아요.<br/>
-		 조용하고 차가운느낌의 요 동물이 귀여운모습을 보이면 몇배로 귀여워요<br/><br/>
-		
-		<table border="2">
-			<caption> 몇가지 좋아하는 고양이 움짤들  </caption>  
-			<tbody>
-				<tr>
-					<td> <img src="http://3.bp.blogspot.com/-5u4zBl403GU/UgvrrxodZGI/AAAAAAAAAEk/Ammsub4yFRI/s1600/cute+cat+14.gif" alt="고양이움짤1"> </td> 
-					<td> <img src="http://www.miwit.com/data/file/bbs_zzal/1848459679_NVdEmxKg_1227869856_EQmq9FH0_upXHFM1341502712212vWtzb.gif" alt="고양이움짤2"></td>
-				</tr> 
-				<tr>
-					<td><img src="http://cfile224.uf.daum.net/image/277B1A425211CC342FC4E2" alt="고양이움짤3"></td>
-					<td><img src="http://fimg2.pann.com/new/download.jsp?FileID=27151110" alt="고양이움짤4"></td>
-				</tr>
-			</tbody>
-		</table>
 
-		<hr/>		
-		<!-- 좋아하는것 2.노래 -->
-		<a name="myMusic"><h1><span style="color:DeepSkyBlue">Music</span></h1></a>
-		저는 노래를 들을 때 장르 상관없이 다 듣습니다.<br/>
-		<b>제 귀에만 좋으면</b> 어떤장르든 상관없어요. <br/><br/>
-		<table border="3">
-			<caption> <span style="color:Chocolate">최근들어</span> 즐겨듣는 노래♪ </caption>
-			<thead>
-				<tr>
-					<th>장르</th> <th>가수</th> <th>제목</th> <th>재생</th>
-				</tr>
-			</thead>
-			<tbody>
+		<div id = "center_top">
+			<a name="myAnimal"> 
+				<span class="title"> Animal </span></a>
+				저는 <b>고양이</b>가 너무좋아요.<br/>
+				 조용하고 차가운느낌의 요 동물이 귀여운모습을 보이면 몇배로 귀여워요<br/><br/>
 				
-				<tr>
-				<td rowspan="2">가요</td>
-					<td>WINNER(위너)</td> <td>Different</td> <td><embed width="100" height="75" src="http://www.youtube.com/embed/YuxjgR4RhrU" alt="WINNER(위너) - Different"></td> 
-				</tr>
-				<tr>
-					<td>어쿠스틱 콜라보</td> <td>waiting for u</td> <td><embed width="100" height="75" src="http://www.youtube.com/embed/jKaCfj291YY" alt="어쿠스틱콜라보 - wating for u"></td> 
-				</tr>
+				<table border="2">
+					<caption> 몇가지 좋아하는 고양이 움짤들  </caption>  
+					<tbody>
+						<tr>
+						<td> <img src="http://3.bp.blogspot.com/-5u4zBl403GU/UgvrrxodZGI/AAAAAAAAAEk/Ammsub4yFRI/s1600/cute+cat+14.gif" alt="고양이움짤1"> </td> 
+						<td> <img src="http://www.miwit.com/data/file/bbs_zzal/1848459679_NVdEmxKg_1227869856_EQmq9FH0_upXHFM1341502712212vWtzb.gif" alt="고양이움짤2"></td>
+						</tr> 
+						<tr>
+						<td><img src="http://cfile224.uf.daum.net/image/277B1A425211CC342FC4E2" alt="고양이움짤3"></td>
+						<td><img src="http://fimg2.pann.com/new/download.jsp?FileID=27151110" alt="고양이움짤4"></td>
+						</tr>
+					</tbody>
+				</table>
+
+		</div>	
+		<hr/>
+		<!-- 좋아하는것 2.노래 -->
 		
-				<tr>
-				<td rowspan="2">힙합</td>
+		<div id ="center_middle">
+			<a name="myMusic">
+			<span class="title">Music</span></a>
+			저는 노래를 들을 때 장르 상관없이 다 듣습니다.<br/>
+			<b>제 귀에만 좋으면</b> 어떤장르든 상관없어요. <br/><br/>
+			
+
+			<table border="3">
+				<caption> 최근들어 즐겨듣는 노래♪ </caption>
+				<thead>
+					<tr>
+						<th>장르</th> <th>가수</th> <th>제목</th> <th>재생</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+					<tr>
+					<td rowspan="2">가요</td>
+					<td>WINNER(위너)</td> <td>Different</td> <td><embed width="100" height="75" src="http://www.youtube.com/embed/YuxjgR4RhrU" alt="WINNER(위너) - Different"></td> 
+					</tr>
+					<tr>
+					<td>어쿠스틱 콜라보</td> <td>waiting for u</td> <td><embed width="100" height="75" src="http://www.youtube.com/embed/jKaCfj291YY" alt="어쿠스틱콜라보 - wating for u"></td> 
+					</tr>
+			
+					<tr>
+					<td rowspan="2">힙합</td>
 					<td>Mad Clown</td> <td>Luv Sickness</td> <td><embed width="100" height="75" src="http://www.youtube.com/embed/1O_P5O3RJ2I?list=PLPFE2UaZSK45WB0NuGsZ1chO4d8kaKFKK" alt="Mad Clown - Luv Sickness"></td> 
-				</tr>
-				<tr>
+					</tr>
+					<tr>
 					<td>Loptimist</td> <td>Amnesia</td> <td><embed width="100" height="75" src="http://www.youtube.com/embed/x0eMuwTAMSE?list=PLPFE2UaZSK45Vq01iVUqel9yF0nBTdjxi" alt="Loptimist - Amnesia"></td>
-				</tr>
-				<tr>
-				<td rowspan="1">팝송</td>
+					</tr>
+					<tr>
+					<td rowspan="1">팝송</td>
 					<td>Family of the Year</td> <td>Hero</td> <td><embed width="100" height="75" src="http://www.youtube.com/embed/iMVc0vG4K_k" alt="Family of the year - Hero"></td>
-				</tr>
+					</tr>
 
-			</tbody>
+				</tbody>
 
-			<tfoot> 
-				<tr>
-				<td colspan="4"><small> 출처 : youtube　</small> </td>
-				</tr>
-			</tfoot>
+				<tfoot> 
+					<tr>
+					<td colspan="4">출처 : youtube</td>
+					</tr>
+				</tfoot>
 
-		</table>
+			</table>
+
+		</div>
 		<hr/>
-		처음화면으로 돌아가고싶다면 .. <a href="./index1.html"> 클릭!! </a> <br>
-		서영이에대해 얘기하고싶다면 .. <a href="./index3.html"> 클릭!! </a>
-		<hr/>
+		<div id = "bottom">
+			처음화면으로 돌아가고싶다면 .. <a href="./index1.html"> 클릭!! </a> <br>
+			서영이에대해 얘기하고싶다면 .. <a href="./index3.html"> 클릭!! </a>
+		</div>
+	
 	</div>
 	</body>
 </html>
