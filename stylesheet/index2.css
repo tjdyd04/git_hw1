@@ -20,28 +20,35 @@ span.title{
 	background-color: WhiteSmoke ;
 	font: bold;}
 
-#center_top table {
+caption {
+	text-align: right;
+	background-color: black;
+	color: white;}
+
+#animal table {
+	border-style: dotted;
 	background-color: black;
 	width: 700px;
 	text-align: center;
 	border-collapse: collapse; 
  	}
 
-#center_top img{
+#animal img{
  	width: 400px;
  	height: 200px;
  	border: 10px;
  }
 
-caption {
-	background-color: black;
-	color: white;}
 
-#center_middle table { width: 350px; text-align: left; }
-#center_middle table th{ text-align: center;}
-#center_middle table tfoot{ font-style: italic; text-align: right;}
+#music table { 
+	border-style:outset;
+	width: 350px; text-align: left; }
+
+#music table th{ text-align: center;}
+#music table tfoot{ font-style: italic; text-align: right;}
 
 
 #bottom {font-size: 20px; color: HotPink;}
 #bottom a:visited{text-decoration:none; color: red;}
 #bottom a:hover{text-decoration:none; color: blue;}
+
