@@ -17,10 +17,11 @@ h1{margin : 10px 0 20px 450px;
 
 #left{float:left;}
 
-#right {font-size: 15px}
+#right {font-size: 15px ; margin-top: 50px;}
 
-a:visited{text-decoration:none; color: red;}
-a:hover{text-decoration:none; color: blue;}
+
+#right_text a:visited{text-decoration:none; color: red;}
+#right_text a:hover{text-decoration:none; color: blue;}
 
 span.maroon{font-size:20px; color:maroon; margin:0 5px 0 20px;}
 span.gray{font-size:10px; color:gray ; padding:2px;}
