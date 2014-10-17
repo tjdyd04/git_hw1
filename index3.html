@@ -16,10 +16,10 @@
 			<hr/>
 		</div>
 		<div id="main">
-
+		
+		<form action="mySurvey" method="post">		
 			<div class="name">
-				<form action="mySurvey" method="post">
-				우선 당신의 이름은? <input type="text" ;name="이름" />
+				당신의 이름은? <input type="text" name="name"/>
 				<br/><br/>
 			</div>
 
@@ -65,9 +65,11 @@
 				<br/><br/>
 			</div>
 
-			마지막으로, 서영이에게 바라는점이 있다면?<br/>
-			<textarea cols="30" rows="10" name="Text"> 정말 자유롭게 써주세요</textarea>
-			<input type="button" value="완성" /> <br/>
+			<div class="textfiled">
+				마지막으로, 서영이에게 바라는점이 있다면?<br/>
+				<textarea cols="30" rows="10" name="Text"> 정말 자유롭게 써주세요</textarea>
+				<input type="button" value="완성" /> <br/>
+			</div>
 		</form>
 
 		</div>
@@ -77,6 +79,6 @@
 			처음화면으로 돌아가고싶다면 .. <a href="./index1.html"> 클릭!! </a> <br/>
 			아래질문의 답을 모르겠다면.. <a href="./index2.html"> 클릭!! </a>  
 		</div>
-
+	</div>
 </body>
 </html>
